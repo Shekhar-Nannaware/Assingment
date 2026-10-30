@@ -37,7 +37,7 @@ void CheckLeapYear(int iYear)
     {
         printf("%d it is a leap year \n", iYear);
     }
-    else if ((iYear % 4 == 0 && iYear % 100 != 0) || iYear % 400 == 0)
+    else if (( (iYear % 4 == 0) && (iYear % 100 != 0)) || (iYear % 400) == 0)
     {
         printf("%d Leap Year\n", iYear);
     }

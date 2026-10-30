@@ -30,7 +30,7 @@
 
 void CheckDivisibility(int iValue)
 {
-    if (iValue % 5 == 0)
+    if ( ( iValue % 5 ) == 0)
     {
         printf("Divisible by 5\n");
     }

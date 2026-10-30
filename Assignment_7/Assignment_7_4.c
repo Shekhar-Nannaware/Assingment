@@ -30,7 +30,7 @@ void OddDisplay(
 
     for (iCnt = 0; iCnt < iNo; iCnt++)
     {
-        if (iCnt % 2 != 0)
+        if ( ( iCnt % 2 ) != 0 )
         {
             printf("%d\t",iCnt);
         }

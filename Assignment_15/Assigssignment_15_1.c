@@ -1,0 +1,49 @@
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Write a program which accepts name from user and prints that name.
+//
+//  Input  : Shekhar Nannaware
+//  Output : Shekhar Nannaware
+//
+//  Function Name : main
+//  Input         : String
+//  Output        : Prints the name
+//  Description   : This program accepts full name from user and prints it.
+//
+//  Date          : 22/11/2026
+//  Author        : Shekhar Nannaware
+//
+////////////////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+#include<stdlib.h>
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Entry Point Function
+//  Description : Accepts full name from user and prints it.
+//
+////////////////////////////////////////////////////////////////////////////////
+
+int main()
+{
+    char Name[30];
+
+    printf("Please enter full Name : ");
+    scanf("*%*[^\n]", Name);
+
+    printf("Your Name is %s\n", Name);
+
+    return EXIT_SUCCESS;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Step 5 : Test the program
+//
+//  Test Case 1:
+//  Input  : Shekhar Nannaware
+//  Output : Shekhar Nannaware
+//
+////////////////////////////////////////////////////////////////////////////////

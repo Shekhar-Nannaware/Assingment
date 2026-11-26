@@ -1,3 +1,40 @@
+/*
+        Accept number of rows and number of columns from user and display below
+        Pattern.
+
+        Input :   iRow = 4      iCol = 4
+
+        Output:   *   *   *   #
+
+                  *   *   #   *
+
+                  *   #   *   *
+
+                  #   *   *   *
+*/
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// void Pattern(int iRow, int iCol)
+// {
+// }
+// int main()
+// {
+//     int iValue1 = 0, iValue2 = 0;
+
+//     printf("Enter Number of rows and Columns :");
+//     scanf("%d %d", iValue1, iValue2);
+
+//     Pattern(iValue1, iValue2);
+
+//     return EXIT_SUCCESS;
+// }
+
+
+
+
+
 ///////////////////////////////////////////////////
 //
 //  Program to Display Hollow Box with Main Diagonal Star Pattern
@@ -23,6 +60,7 @@
 //
 ///////////////////////////////////////////////////
 
+
 void Pattern(int iRow, int iCol)
 {
     int iCnt1 = 0, iCnt2 = 0;
@@ -37,11 +75,7 @@ void Pattern(int iRow, int iCol)
     {
         for (iCnt2 = 1; iCnt2 <= iCol; iCnt2++)
         {
-            if (iCnt1 > 1 && iCnt2 == 1)
-            {
-                printf("-\t");
-            }
-            else if (iCnt1 == 1 || iCnt1 == iRow || iCnt2 == 1 || iCnt2 == iCol || iCnt1 == iCnt2)
+            if (iCnt1 == 1 || iCnt1 == iRow || iCnt2 == 1 || iCnt2 == iCol || iCnt1 == iCnt2)
             {
                 printf("*\t");
             }
@@ -80,11 +114,11 @@ int main()
 //      Input : iRow = 6, iCol = 6
 //      Output :
 //      *       *       *       *       *       *
-//      -       *                               *
-//      -               *                       *
-//      -                       *               *
-//      -                               *       *
-//      -       *       *       *       *       *
+//      *       *                               *
+//      *               *                       *
+//      *                       *               *
+//      *                               *       *
+//      *       *       *       *       *       *
 //
 //      Input : iRow = 4, iCol = 4
 //      Output :

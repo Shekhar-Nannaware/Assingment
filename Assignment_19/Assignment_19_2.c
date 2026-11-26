@@ -37,14 +37,7 @@ void Pattern(int iRow, int iCol)
     {
         for (iCnt2 = 1; iCnt2 <= iCol && iCnt2 <= iRow - iCnt1 + 1; iCnt2++)
         {
-            if (iCnt1 > 1 && iCnt2 == 1)
-            {
-                printf("-\t");
-            }
-            else
-            {
-                printf("*\t");
-            }
+             printf("*\t");            
         }
         printf("\n");
     }

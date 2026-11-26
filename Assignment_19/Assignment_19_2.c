@@ -69,15 +69,15 @@ int main()
 //      Input : iRow = 4, iCol = 4
 //      Output :
 //      *       *       *       *
-//      -       *       *
-//      -       *
-//      -
+//      *       *       *
+//      *       *
+//      *
 //
 //      Input : iRow = 3, iCol = 5
 //      Output :
 //      *       *       *
-//      -       *
-//      -
+//      *       *
+//      *
 //
 //      Input : iRow = 0, iCol = 4
 //      Output :
